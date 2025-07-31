@@ -1,70 +1,63 @@
-    /* Reset */
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-      min-height: 100vh;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
-    }
-    .form-container {
-      background: white;
-      padding: 30px 40px;
-      border-radius: 12px;
-      box-shadow: 0 12px 24px rgba(0,0,0,0.15);
-      max-width: 400px;
-      width: 100%;
-    }
-    .form-container h2 {
-      margin-bottom: 25px;
-      color: #333;
-      text-align: center;
-      font-weight: 700;
-    }
-    form input, form textarea {
-      width: 100%;
-      padding: 12px 15px;
-      margin-bottom: 18px;
-      border-radius: 8px;
-      border: 1.8px solid #ddd;
-      font-size: 1rem;
-      transition: border-color 0.3s ease;
-      resize: none;
-    }
-    form input:focus, form textarea:focus {
-      border-color: #2575fc;
-      outline: none;
-      box-shadow: 0 0 8px #2575fc;
-    }
-    form button {
-      width: 100%;
-      padding: 14px;
-      border: none;
-      background: #2575fc;
-      color: white;
-      font-weight: 700;
-      font-size: 1.1rem;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
-    form button:hover {
-      background: #1a52c0;
-    }
-    .success-msg {
-      text-align: center;
-      margin-top: 15px;
-      font-weight: 600;
-      font-size: 1rem;
-    }
-    .success-msg.success {
-      color: green;
-    }
-    .success-msg.error {
-      color: red;
-    }
+  body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 420px;
+  color: #fff;
+}
+
+.form-container h2 {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  margin-bottom: 1.3rem;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: cadetblue;
+  box-shadow: 0 0 0 3px rgba(159, 122, 234, 0.4);
+}
+
+form button {
+  width: 100%;
+  background-color: cadetblue;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: darkgray;
+}
+
+
