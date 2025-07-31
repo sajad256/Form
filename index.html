@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Modern Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" id="username" placeholder="Username" required />
+        <input type="email" id="email" placeholder="Email Address" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+        <div class="success-msg" id="successMsg"></div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+    <script src="server.js"></script>
+  </body>
+</html>
+  
