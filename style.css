@@ -45,7 +45,7 @@ form textarea:focus {
 }
 
 form button {
-  width: 100%;
+  width: 440px;
   background-color: cadetblue;
   padding: 1rem;
   border: none;
