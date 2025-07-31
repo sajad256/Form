@@ -15,7 +15,7 @@ form.addEventListener("submit", async (e) => {
   successMsg.className = "success-msg";
 
   try {
-    const res = await fetch("http://localhost:3000/api/submit", {
+    const res = await fetch("https://form-rzp8.onrender.com/api/submit", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
